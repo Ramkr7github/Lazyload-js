@@ -22,4 +22,4 @@ In App.js, the lazy loading is done using **React.lazy()**, which asynchronously
 
 The **Suspense** component is used to specify a fallback UI (in this case, a simple "Loading..." message) while the lazy-loaded component is being fetched.
 
-Within Suspense, the lazily loaded component <MyLazyComponent /> is rendered. When React reaches this point and sees that MyLazyComponent is not yet loaded, it will display the fallback UI specified by Suspense. Once MyLazyComponent is loaded, it replaces the fallback UI and renders normally.
+Within Suspense, the lazily loaded component **<MyLazyComponent />** is rendered. When React reaches this point and sees that MyLazyComponent is not yet loaded, it will display the fallback UI specified by Suspense. Once MyLazyComponent is loaded, it replaces the fallback UI and renders normally.
